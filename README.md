@@ -6,7 +6,7 @@ Application to get the main info about any country.
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 
-Enter the name of your favorite countiries and get the main info about them. 
+Enter the name of your favorite countries and get the main info about them. 
 
 
 
