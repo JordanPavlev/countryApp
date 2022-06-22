@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+root {
+    --indigo: Indigo;
+}
+
+body {
+    background-image: url("cool-background.jpg");
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#wrapper {
+    background-color: #E6E6FA;
+    width: 50vw;
+    height: 79vh;
+    font-size: 1.4em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 3rem 3rem;
+    top: 50%;
+    left: 50%;
+    border-radius: 0.8em;
+    box-shadow: 0 0.8em 3em black;
+}
+
+#wrapper .flag-img {
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    min-width: 7em;
+    margin: 2em auto 1em auto;
+}
+
+#wrapper h2 {
+    color: indigo;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin-bottom: 2em;
+}
+
+#wrapper h3 {
+    text-align: center;
+}
+
+#search-box {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    gap: 2em;
+}
+
+#search-box button {
+    font-size: 1.4rem;
+    background-color: indigo;
+    color: pink;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+#search-box button:hover {
+    background-color: #a16060;
+}
+
+#search-box input {
+    padding: 0 0.6rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid indigo;
+}
+
+.data-wrapper {
+    
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+#wrapper h4 {
+    display: inline;
+    font-weight: 600;
+    color: indigo;
+}
+
+#wrapper span {
+    color: #2F4F4F;
+}
+
+#wrapper h3 {
+    color: #800000;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
