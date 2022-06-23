@@ -45,18 +45,19 @@ body {
 }
 
 #search-box {
-    display: grid;
-    grid-template-columns: 8fr 2fr;
-    gap: 2em;
+    display: flex;
+   justify-content: space-around;
+    width: 100%;
 }
 
 #search-box button {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     background-color: indigo;
     color: pink;
     border: none;
     border-radius: 0.4rem;
 }
+
 
 #search-box button:hover {
     background-color: #a16060;
@@ -67,6 +68,7 @@ body {
     border-radius: 0.8rem;
     font-size: 1rem;
     border: none;
+    width: 26em;
     outline: none;
     border-bottom: 2px solid indigo;
 }
@@ -94,9 +96,20 @@ body {
 }
 
 @media (max-width: 428px) {
+
+    body {
+        background-image: url(/mobile-background.jpg);
+    
+    }
     #search-box {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        gap: 8px;
+    }
+
+    #search-box input {
+        width: 14em;
+        font-size: 0.8em;
+        
     }
 
     
