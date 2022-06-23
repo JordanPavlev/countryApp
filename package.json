@@ -4,7 +4,7 @@
   "description": "Application to get the main info about any country.",
   "main": "main.js",
   "scripts": {
-    "deploy": "gh-pages -d countryApp"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
