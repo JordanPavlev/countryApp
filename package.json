@@ -1,0 +1,23 @@
+{
+  "name": "countryapp",
+  "version": "1.0.0",
+  "description": "Application to get the main info about any country.",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d countryApp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanPavlev/countryApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanPavlev/countryApp/issues"
+  },
+  "homepage": "https://jordanpavlev.github.io/countryApp",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
