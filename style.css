@@ -51,7 +51,7 @@ body {
 }
 
 #search-box button {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     background-color: indigo;
     color: pink;
     border: none;
@@ -61,6 +61,7 @@ body {
 
 #search-box button:hover {
     background-color: #a16060;
+    cursor: pointer;
 }
 
 #search-box input {
@@ -68,15 +69,19 @@ body {
     border-radius: 0.8rem;
     font-size: 1rem;
     border: none;
-    width: 26em;
+    width: 36em;
     outline: none;
     border-bottom: 2px solid indigo;
 }
 
+#search-box input:focus {
+    border: 2.5px solid indigo;
+}
+
 .data-wrapper {
-    
     margin-bottom: 1em;
     letter-spacing: 0.3px;
+    font-size: 2.2rem;
 }
 
 #wrapper h4 {
@@ -92,14 +97,17 @@ body {
 #wrapper h3 {
     color: #800000;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 @media (max-width: 428px) {
-
     body {
-        background-image: url(/mobile-background.jpg);
-    
+        background-image: url("./mobile-background.jpg");
+        background-size: cover;
+    }
+
+    #wrapper {
+        padding: 1rem 3rem;
     }
     #search-box {
         display: grid;
@@ -108,10 +116,37 @@ body {
 
     #search-box input {
         width: 14em;
-        font-size: 0.8em;
-        
+        height: 4vh;
+        font-size: 0.8em; 
+    }
+    #search-box input:focus {
+        border: 1.5px solid indigo;
+    }
+    .data-wrapper {
+        height: 4vh;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    body {
+        background-image: url("./mobile-background.jpg");
+        background-size: cover;
     }
 
+    #search-box input {
+        width: 14em;
+        height: 4vh;
+        font-size: 0.8em; 
+    }
+    #search-box input:focus {
+        border: 1.5px solid indigo;
+    }
+    
+    .data-wrapper {
+        height: 4vh;
+        font-size: 1.3rem;
+    }
     
 }
 

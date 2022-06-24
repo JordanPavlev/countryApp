@@ -56,7 +56,7 @@ searchButton.addEventListener("click", () => {
 });
 
 clearButton.addEventListener("click", () => {
-    result.innerHTML = " "
-    searchCountry.value = " "
+    result.innerHTML = ""
+    searchCountry.value = ""
 });
 
